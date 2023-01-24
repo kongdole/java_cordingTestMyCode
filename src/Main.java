@@ -5,8 +5,9 @@ public class Main {
 	public String solution(String str) {
 
 		String answer;
-		int lt = 0, rt = str.length() - 1;
-		char[] a = str.toCharArray();
+		String str2 = str.toUpperCase();
+		int lt = 0, rt = str2.length() - 1;
+		char[] a = str2.toCharArray();
 		int cnt = 0;
 		
 		while (lt < rt) {
