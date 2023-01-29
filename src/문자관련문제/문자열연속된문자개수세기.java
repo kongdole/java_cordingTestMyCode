@@ -20,11 +20,14 @@ public class Main {
 			} else if (temp != a[i]) {
 				temp = a[i];
 				if (cnt != 1) {
-					save += String.valueOf(cnt);
+					save +=cnt;
 				}
 				save += String.valueOf(a[i]);
 				cnt = 1;
-			} else {
+			} else if(i==str.length()-1) {
+				cnt++;
+				save+=cnt;
+			}else {
 				cnt++;
 			}
 		}
