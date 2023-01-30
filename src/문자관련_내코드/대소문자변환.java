@@ -1,3 +1,4 @@
+package 문자관련_내코드;
 import java.util.Scanner;
 
 public class Main {
