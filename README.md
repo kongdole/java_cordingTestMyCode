@@ -14,7 +14,7 @@
 
 코딩테스트 문제 코드 문제 및 풀이 정리:
 
-https://devdreamer.tistory.com/
+https://devdreamer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Java%20%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A4%80%EB%B9%84
 
 ## 
 
