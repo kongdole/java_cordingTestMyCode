@@ -13,20 +13,19 @@ public class Main {
 		for (int i = 0; i < num; i++) {
 			char[] b = new char[a[i].length()];
 			b = a[i].toCharArray();
-				int lt = 0;
-				int rt = b.length - 1;
-				while (lt < rt) {
-					temp = b[lt];
-					b[lt] = b[rt];
-					b[rt] = temp;
-					System.out.println("lt"+lt);
-					System.out.println("rt"+rt);
-					lt++;
-					rt--;
-					System.out.println("lt"+lt);
-					System.out.println("rt"+rt);
-				}
-			
+			int lt = 0;
+			int rt = b.length - 1;
+			while (lt < rt) {
+				temp = b[lt];
+				b[lt] = b[rt];
+				b[rt] = temp;
+				System.out.println("lt" + lt);
+				System.out.println("rt" + rt);
+				lt++;
+				rt--;
+				System.out.println("lt" + lt);
+				System.out.println("rt" + rt);
+			}
 			System.out.println(String.valueOf(b));
 			list.add(Integer.parseInt(String.valueOf(b)));
 		}
@@ -54,7 +53,7 @@ public class Main {
 		String[] a = str.split(" ");
 
 		for (Integer x : T.solution(a, num)) {
-			System.out.print(x+" ");
+			System.out.print(x + " ");
 		}
 	}
 
