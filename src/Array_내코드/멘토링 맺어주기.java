@@ -28,13 +28,6 @@ public class Main {
 			}
 			arr.add(stu1);
 		}
-//		for(int i=0; i<rank; i++) {
-//			for(int x: arr.get(i)) {
-//				System.out.print(x);
-//			}
-//			System.out.println();
-//		}
-		
 		boolean b;
 		for (int i = 0; i < arr.size(); i++) {
 			for (int j = 0; j < arr.size(); j++) {
